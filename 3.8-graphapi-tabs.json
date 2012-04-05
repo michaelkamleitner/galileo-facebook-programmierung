@@ -1,0 +1,126 @@
+{
+  "data": [
+    {
+      "id": "129842310398883/tabs/info", 
+      "name": "Résumé", 
+      "link": "https://www.facebook.com/diesocialisten?sk=info", 
+      "is_permanent": true, 
+      "position": 0, 
+      "type": "profile_tab"
+    }, 
+    {
+      "id": "129842310398883/tabs/timeline", 
+      "name": "Timeline", 
+      "link": "https://www.facebook.com/diesocialisten?sk=timeline", 
+      "is_permanent": true, 
+      "position": 1, 
+      "type": "profile_tab"
+    }, 
+    {
+      "id": "129842310398883/tabs/allactivity", 
+      "name": "All Activity", 
+      "link": "https://www.facebook.com/diesocialisten?sk=allactivity", 
+      "is_permanent": true, 
+      "position": 2, 
+      "type": "profile_tab"
+    }, 
+    {
+      "id": "129842310398883/tabs/messages", 
+      "name": "Messages", 
+      "link": "https://www.facebook.com/diesocialisten?sk=messages", 
+      "is_permanent": true, 
+      "position": 3, 
+      "type": "profile_tab"
+    }, 
+    {
+      "id": "129842310398883/tabs/messages_inbox", 
+      "name": "Messages", 
+      "link": "https://www.facebook.com/diesocialisten?sk=messages_inbox", 
+      "is_permanent": true, 
+      "position": 4, 
+      "type": "profile_tab"
+    }, 
+    {
+      "id": "129842310398883/tabs/messages_other", 
+      "name": "Other", 
+      "link": "https://www.facebook.com/diesocialisten?sk=messages_other", 
+      "is_permanent": true, 
+      "position": 5, 
+      "type": "profile_tab"
+    }, 
+    {
+      "id": "129842310398883/tabs/app_127675550671337", 
+      "image_url": "https://fbcdn-photos-a.akamaihd.net/photos-ak-snc1/v85006/137/127675550671337/app_10_127675550671337_3108.gif", 
+      "name": "Last.fm Scrobbler", 
+      "link": "https://www.facebook.com/diesocialisten?sk=app_127675550671337", 
+      "application": {
+        "name": "Last.fm Scrobbler", 
+        "namespace": "lastfm-og-scrobbler", 
+        "canvas_name": "lastfm-og-scrobbler", 
+        "id": "127675550671337"
+      }, 
+      "custom_image_url": "https://fbcdn-photos-a.akamaihd.net/photos-ak-snc1/v85006/137/127675550671337/app_10_127675550671337_3108.gif", 
+      "position": 6, 
+      "type": "profile_tab"
+    }, 
+    {
+      "id": "129842310398883/tabs/app_110731775681438", 
+      "image_url": "https://fbcdn-photos-a.akamaihd.net/photos-ak-snc1/v85005/170/110731775681438/app_10_110731775681438_9182.gif", 
+      "name": "Find us here!", 
+      "link": "https://www.facebook.com/diesocialisten?sk=app_110731775681438", 
+      "application": {
+        "name": "Die Socialisten Map", 
+        "namespace": "socialisten-map", 
+        "canvas_name": "socialisten-map", 
+        "id": "110731775681438"
+      }, 
+      "custom_image_url": "https://fbcdn-photos-a.akamaihd.net/photos-ak-snc1/v85005/170/110731775681438/app_10_110731775681438_9182.gif", 
+      "custom_name": "Find us here!", 
+      "position": 7, 
+      "type": "profile_tab"
+    }, 
+    {
+      "id": "129842310398883/tabs/app_133654046712882", 
+      "image_url": "https://fbcdn-photos-a.akamaihd.net/photos-ak-snc1/v85005/150/133654046712882/app_10_133654046712882_9429.gif", 
+      "name": "Social Wall", 
+      "link": "https://www.facebook.com/diesocialisten?sk=app_133654046712882", 
+      "application": {
+        "name": "Die Socialisten Ö3-Demo", 
+        "namespace": "diesocialisten-wall", 
+        "canvas_name": "diesocialisten-wall", 
+        "id": "133654046712882"
+      }, 
+      "custom_image_url": "https://fbcdn-photos-a.akamaihd.net/photos-ak-snc1/v85005/150/133654046712882/app_10_133654046712882_9429.gif", 
+      "custom_name": "Social Wall", 
+      "position": 8, 
+      "type": "profile_tab"
+    }, 
+    {
+      "id": "129842310398883/tabs/photos", 
+      "name": "Photos", 
+      "link": "https://www.facebook.com/diesocialisten?sk=photos", 
+      "application": {
+        "name": "Photos", 
+        "id": "2305272732"
+      }, 
+      "position": 9, 
+      "type": "profile_tab"
+    }, 
+    {
+      "id": "129842310398883/tabs/likes", 
+      "name": "Likes", 
+      "link": "https://www.facebook.com/diesocialisten?sk=likes", 
+      "is_permanent": true, 
+      "position": 10, 
+      "type": "profile_tab"
+    }, 
+    {
+      "id": "129842310398883/tabs/page_map", 
+      "name": "Map", 
+      "link": "https://www.facebook.com/diesocialisten?sk=page_map", 
+      "is_permanent": true, 
+      "position": 11, 
+      "type": "profile_tab"
+    }
+  ]
+}

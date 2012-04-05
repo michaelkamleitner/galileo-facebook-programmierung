@@ -1,0 +1,4 @@
+curl \
+   -F 'access_token=************' \
+   -F 'batch=[{ "method": "GET", "name" : "get-friends", "relative_url": "me/friends?limit=5" }, { "method": "GET", "relative_url": "?ids={result=get-friends:$.data.*.id}" }]' \
+      https://graph.facebook.com/

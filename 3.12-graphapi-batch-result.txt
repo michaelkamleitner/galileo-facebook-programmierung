@@ -1,0 +1,107 @@
+Array
+(
+    [0] => stdClass Object
+        (
+            [code] => 400
+            [headers] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [name] => Access-Control-Allow-Origin
+                            [value] => *
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [name] => Cache-Control
+                            [value] => no-store
+                        )
+
+                    [2] => stdClass Object
+                        (
+                            [name] => Connection
+                            [value] => close
+                        )
+
+                    [3] => stdClass Object
+                        (
+                            [name] => Content-Type
+                            [value] => text/javascript; charset=UTF-8
+                        )
+
+                    [4] => stdClass Object
+                        (
+                            [name] => Expires
+                            [value] => Sat, 01 Jan 2000 00:00:00 GMT
+                        )
+
+                    [5] => stdClass Object
+                        (
+                            [name] => Pragma
+                            [value] => no-cache
+                        )
+
+                    [6] => stdClass Object
+                        (
+                            [name] => WWW-Authenticate
+                            [value] => OAuth "Facebook Platform" "invalid_request" "(#506) Duplicate status message"
+                        )
+
+                )
+
+            [body] => {"error":{"message":"(#506) Duplicate status message","type":"OAuthException","code":506}}
+        )
+
+    [1] => stdClass Object
+        (
+            [code] => 200
+            [headers] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [name] => Access-Control-Allow-Origin
+                            [value] => *
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [name] => Cache-Control
+                            [value] => private, no-cache, no-store, must-revalidate
+                        )
+
+                    [2] => stdClass Object
+                        (
+                            [name] => Connection
+                            [value] => close
+                        )
+
+                    [3] => stdClass Object
+                        (
+                            [name] => Content-Type
+                            [value] => text/javascript; charset=UTF-8
+                        )
+
+                    [4] => stdClass Object
+                        (
+                            [name] => ETag
+                            [value] => "6d8e26e87b871aaa46e63e611173e68731ecc565"
+                        )
+
+                    [5] => stdClass Object
+                        (
+                            [name] => Expires
+                            [value] => Sat, 01 Jan 2000 00:00:00 GMT
+                        )
+
+                    [6] => stdClass Object
+                        (
+                            [name] => Pragma
+                            [value] => no-cache
+                        )
+
+                )
+
+            [body] => {"data":[{"id":"100001903705011_299227006817420","from":{"name":"Klara Brigitte Socialist","id":"100001903705011"},"message":"Mein Wall Posting!","type":"status","application":{"name":"Galileo Playground","namespace":"galileo-playground","canvas_name":"galileo-playground","id":"214728715257742"},"created_time":"2012-03-28T14:10:39+0000","updated_time":"2012-03-28T14:10:39+0000","comments":{"count":0},"is_published":true}],"paging":{"previous":"http:\/\/graph.facebook.com\/me\/feed?limit=1&_fb_url=me\u00252Ffeed&access_token=AAADDS2zLx44BAHc4OyNqvZCo00WMPiSfJbhUPdeCmScXNDcPIj8KUlFJsNbpnVk5Xy40SKEp2Y52cZAggqjnR4xZCdZBjVYyZBiNWxCD6Om4ulzIZBjKjB&_fb_batch_child_request=1&since=1332943839&__previous=1","next":"http:\/\/graph.facebook.com\/me\/feed?limit=1&_fb_url=me\u00252Ffeed&access_token=AAADDS2zLx44BAHc4OyNqvZCo00WMPiSfJbhUPdeCmScXNDcPIj8KUlFJsNbpnVk5Xy40SKEp2Y52cZAggqjnR4xZCdZBjVYyZBiNWxCD6Om4ulzIZBjKjB&_fb_batch_child_request=1&until=1332943838"}}
+        )
+
+)
