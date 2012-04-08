@@ -1,4 +1,8 @@
 <DOCTYPE html>
+
+<!-- Facebook Programmierung - Galileo Verlag, Michael Kamleitner
+     Weitere Informationen sowie Aktualisierungen zu diesem Code-Beispiel finden Sie unter http://book.socialisten.at  -->
+
 <html lang="de-de" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
 <head>
 	<meta charset="utf-8">

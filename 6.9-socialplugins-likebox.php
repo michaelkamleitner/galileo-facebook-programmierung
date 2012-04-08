@@ -1,4 +1,8 @@
 <DOCTYPE html>
+
+<!-- Facebook Programmierung - Galileo Verlag, Michael Kamleitner
+     Weitere Informationen sowie Aktualisierungen zu diesem Code-Beispiel finden Sie unter http://book.socialisten.at  -->
+
 <html lang="de-de" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
 <head>
 	<meta charset="utf-8">
@@ -16,8 +20,6 @@
 
 	<div class="fb-like-box" data-href="http://www.facebook.com/diesocialisten" data-width="292" data-show-faces="true" data-stream="true" data-header="true"></div>
 
-
-
 </div>
 
 <div style="float:left;margin-left:20px;">
@@ -29,7 +31,6 @@
 	<hr/><p>Ohne Header, Stream, Faces</p>
 	
 	<div class="fb-like-box" data-href="http://www.facebook.com/diesocialisten" data-width="292" data-show-faces="false" data-stream="false" data-header="false" data-border-color="#ff0000"></div>
-
 
 </div>
 <div style="clear:both;"></div>

@@ -1,4 +1,7 @@
 <? 
+// Facebook Programmierung - Galileo Verlag, Michael Kamleitner
+// Weitere Informationen sowie Aktualisierungen zu diesem Code-Beispiel finden Sie unter http://book.socialisten.at
+
 include_once('tools.php');
 define('APP_ID', '214728715257742');
 define('APP_SECRET', '********************************'); 

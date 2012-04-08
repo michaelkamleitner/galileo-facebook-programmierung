@@ -1,8 +1,9 @@
 <? 
-
-//
+// Facebook Programmierung - Galileo Verlag, Michael Kamleitner
+// Weitere Informationen sowie Aktualisierungen zu diesem Code-Beispiel finden Sie unter http://book.socialisten.at
 // tools.php - Eine Sammlung an nützlichen Funktionen für die Anwendungs-Entwicklung auf Facebook
-//
+
+// curl() - Einlesen einer beliebigen HTTP-Ressource mittels curl
 
 function curl($url, $postargs=false, $method=null) {
    $ch = curl_init($url);
@@ -28,6 +29,8 @@ function curl($url, $postargs=false, $method=null) {
       return false;
 }
 
+// get_app_accesstoken() - Beziehen eines Applikations-Access Tokens
+
 function get_app_accesstoken($app_id, $app_secret) {
    $url =
    "https://graph.facebook.com/oauth/access_token?".
@@ -39,6 +42,8 @@ function get_app_accesstoken($app_id, $app_secret) {
    $access_token = substr($access_token,strpos($access_token,"=")+1);
    return $access_token;
 }
+
+// parse_signed_request() - Dekodieren des Signed Requests
 
 function parse_signed_request($signed_request, $secret) {
   list($encoded_sig, $payload) = explode('.', $signed_request, 2); 
@@ -61,6 +66,8 @@ function parse_signed_request($signed_request, $secret) {
   }
   return $data;
 }
+
+// base64_url_decode() - Hilfsfunktion zum Dekodieren des Signed Requests
 
 function base64_url_decode($input) {
   return base64_decode(strtr($input, '-_', '+/'));

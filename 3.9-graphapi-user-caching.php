@@ -1,4 +1,7 @@
 <?
+// Facebook Programmierung - Galileo Verlag, Michael Kamleitner
+// Weitere Informationen sowie Aktualisierungen zu diesem Code-Beispiel finden Sie unter http://book.socialisten.at
+
 include("tools.php");
 
 // Herstellung der Verbindung zur Datenbank
